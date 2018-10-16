@@ -4,7 +4,7 @@
 class node
 {
 	int info;
-	node *next;
+	node *next;		// next will tore address of next node
 	friend class linklist;
 
 	public:

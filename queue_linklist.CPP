@@ -7,6 +7,8 @@ class node
 int info;
 node *next;
 friend class linklist;
+	// info stores data of the node
+	// next stores the address of next node
 
 public:
 node(int x,node *ptr=0)

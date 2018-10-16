@@ -5,9 +5,9 @@
 template<class T>
 class stack
 {
-T *arr;
+T *arr; 
 int top;
-int s;
+int s;		// s will store size of stack
 
 
 public:
